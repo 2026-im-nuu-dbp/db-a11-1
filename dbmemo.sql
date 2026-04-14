@@ -1,1 +1,8 @@
-// create a new table called "dbmemo"
+CREATE TABLE dememo (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    content TEXT,
+    image VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES dbusers(id) ON DELETE CASCADE
+);

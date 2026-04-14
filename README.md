@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/VOLNfwbe)
 # 作業 5 資料庫基礎存取
 
 ## 繳交說明
@@ -28,3 +29,10 @@
 7. 登入資料可以被瀏覽
 
 ## 自行設計的內容說明(同學自填)
+
+### 系統檔案連貫說明
+1. 進入 `作業5/index.php` 作為系統入口。
+2. 未登入時可前往註冊與登入頁面。
+3. `作業5/config.php` 會自動建立 `testdb` 以及 `dbusers`、`dblog`、`dememo` 三張表。
+4. 登入成功後導向備忘列表，可新增、刪除備忘並查看登入紀錄。
+5. 圖片上傳儲存在 `作業5/uploads/`。
